@@ -1,3 +1,9 @@
+<p align="center">
+    <a href="https://github.com/Playcpa/Xemu-android/blob/main/xemu_logo.png">
+        <img height="120px" src="https://github.com/Playcpa/Xemu-android/blob/main/xemu_logo.png" />
+    </a>
+</p>
+
 <h1 align="center">Xemu - Xbox original Emulator</h1>
 
  Please check the [FAQ](https://xemu.app/docs/faq/)
