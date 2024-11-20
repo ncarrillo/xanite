@@ -1,7 +1,6 @@
 <h1 align="center">Xemu - Xbox original Emulator</h1>
 
- {faq}
- (https://xemu.app/docs/faq/)
+ Please check the [FAQ](https://xemu.app/docs/faq/)
 ---
 
 ## Features
