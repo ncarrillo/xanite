@@ -4,7 +4,7 @@
     </a>
 </p>
 
-<h1 align="center">Xemu - Xbox original Emulator</h1>
+<h1 align="center">Xemu - Xbox original Emulator Android</h1>
 
  Please check the [FAQ](https://xemu.app/docs/faq/)
 ---
