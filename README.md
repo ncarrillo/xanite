@@ -36,12 +36,16 @@
 
 - **Supported Processors**:  
   -Snapdragon 680 and above.
+
   -G85 ~~ G99
+
   -dimensity
-- **Minimum RAM**:  
-  - 4 GB for Low Quality settings.
-  - 6 GB for Medium Quality settings.
-  - 8+ GB for High Quality settings.
+- **Minimum RAM**:
+   - 4 GB for Low Quality settings.
+
+   - 6 GB for Medium Quality settings.
+
+   - 8+ GB for High Quality settings.
 
 - **Graphics**:  
   Requires OpenGL ES 3.0 + 3.5 support
