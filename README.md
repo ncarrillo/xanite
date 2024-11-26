@@ -35,15 +35,16 @@
 ## System Requirements
 
 - **Supported Processors**:  
-  Snapdragon 680 and above.
-
+  -Snapdragon 680 and above.
+  -G85 ~~ G99
+  -dimensity
 - **Minimum RAM**:  
-  - 2 GB for Low Quality settings.
-  - 4 GB for Medium Quality settings.
-  - 4+ GB for High Quality settings.
+  - 4 GB for Low Quality settings.
+  - 6 GB for Medium Quality settings.
+  - 8+ GB for High Quality settings.
 
 - **Graphics**:  
-  Requires OpenGL ES 3.0 support.
+  Requires OpenGL ES 3.0 + 3.5 support
 
 - **Operating System**:  
   Android 10 no root and later.
@@ -60,7 +61,7 @@
    
 2. Once the resources are loaded, the emulator will automatically detect your device's hardware and adjust the settings for optimal performance.
 
-3. Press "Start" and enjoy playing your Xbox game!
+3. Press "the game" and enjoy playing your Xbox game!
 
 ---
 
@@ -82,13 +83,13 @@
 
 ## Credits
 
-This project was created by the **Xemu Team**, with special thanks to **@FreePalestine1970** for their contributions. We also want to acknowledge the following technologies that make this possible:
+This project was created by the **Xemu Team**, with special thanks to **@FreePalestine1970** Planning, design and arrangement  He is the owner version Android:
 
 - **C++** for the core emulator logic.
 - **OpenGL** and **GLFW** for rendering.
 - **SDL2** for input and audio handling.
-- **JNI** for integrating the emulator with Android.
-
+- **JNI** for integrating the emulator with -Android.
+- **others**
 ---
 
 ## Disclaimer
