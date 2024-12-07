@@ -12,7 +12,7 @@
 ## Features
 
 - **Game Compatibility**:  
-  You can play Xbox games from `.iso` file formats. This allows you to enjoy a wide range of classic Xbox games on your Android device.
+  You can play Xbox games from `.iso . xiso` file formats. This allows you to enjoy a wide range of classic Xbox games on your Android device.
 
 - **Graphics Optimization**:  
   The emulator adjusts its graphics settings (Low, Medium, High) based on the capabilities of your device to ensure smooth performance.
@@ -61,7 +61,7 @@
    - BIOS file.
    - Hard Disk Image.
    - Boot ROM Image.
-   - Game file (`.iso`).
+   - Game file (`.iso+.xiso`).
    
 2. Once the resources are loaded, the emulator will automatically detect your device's hardware and adjust the settings for optimal performance.
 
