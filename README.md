@@ -87,7 +87,9 @@
 
 ## Credits
 
-This project was created by the **Xemu Team**, with special thanks to **@FreePalestine1970** and **@Snap680** Planning, design and arrangement  He is the owner version Android:
+This project was created by the **Xemu Team**, with special thanks to **@FreePalestine1970** and **@Snap680** 
+Planning, design and arrangement the version Android:
+
 
 - **C++** for the core emulator logic.
 - **OpenGL** and **GLFW** for rendering.
