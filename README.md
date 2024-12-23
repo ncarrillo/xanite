@@ -87,17 +87,17 @@
 
 ## Credits
 
-This project was created by the **Xemu Team**, with special thanks to **@FreePalestine1970** and **@Snap680** 
+This project was created by the **Xemu Team**, with special thanks to **@FreePalestine1970** and thanks Who contributed to the project
 Planning, design and arrangement the version Android:
 
 
 - **C++** for the core emulator logic.
-- **OpenGL** and **GLFW** for rendering.
+- **OpenGL ES 3.0** and **GLFW** for rendering.
 - **SDL2** for input and audio handling.
-- **JNI** for integrating the emulator with -Android.
+- **JNI** for integrating the emulator with -Android..
 - **others**
 ---
 
 ## Disclaimer
 
-Xemu Android is an independent project and is not affiliated with Microsoft or the original Xbox team. This emulator is for educational and personal use only.
+Xemu Android is an independent project and is not affiliated with Microsoft or the original Xbox team. This emulator is for educational and personal use only...
