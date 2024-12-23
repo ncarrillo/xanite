@@ -51,7 +51,7 @@ This was your emulator issues or errors. Come chat with us about on Discord. htt
    - 8+ GB for High Quality settings.
 
 - **Graphics**:  
-  Requires OpenGL ES 3.0 + 3.5 support
+  Requires OpenGL ES 3.0 support
 
 - **Operating System**:  
   Android 10 no root and later.
