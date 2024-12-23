@@ -1,0 +1,31 @@
+#include <winver.h>
+#include <Emulator>
+#include "config-host.h"
+#include "xemu-version-macro.h"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION XEMU_VERSION_MAJOR,XEMU_VERSION_MINOR,XEMU_VERSION_PATCH,XEMU_VERSION_COMMIT
+PRODUCTVERSION XEMU_VERSION_MAJOR,XEMU_VERSION_MINOR,XEMU_VERSION_PATCH,XEMU_VERSION_COMMIT
+OPEN IN ANDROID 10 NO ROOT
+FILETYPE VFT_APP
+FILESUBTYPE VFT1_UNKNOWN
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "040004E4"
+    {
+      VALUE "CompanyName", "https://xemu.app"
+      VALUE "FileDescription", "xemu: Original Xbox Emulator Android"
+      VALUE "FileVersion", XEMU_VERSION
+      VALUE "LegalCopyright", "Copyright various authors. Released under the GNU General Public License."
+      VALUE "LegalTrademarks", "opengl 3.0 is a trademark of Fabrice Bellard."
+      VALUE "ProductName", "xemu-android"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x0409, 1255
+  }
+}
+
+IDI_ICON1 ICON "ui/icons/xemu-icon.ico"
