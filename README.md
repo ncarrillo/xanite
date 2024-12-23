@@ -19,7 +19,7 @@
 
 - **HELP**
 This was your emulator issues or errors. Come chat with us about on Discord. https://discord.gg/ZrbZTGSs
-- 
+
 - **OpenGL Rendering**:  
   Using OpenGL and GLFW, the emulator provides high-quality graphics rendering for a better gaming experience.
 
