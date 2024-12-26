@@ -90,7 +90,7 @@ This was your emulator issues or errors. Come chat with us about on Discord. htt
 
 ## Credits
 
-This project was created by the **Xemu Team**, with special thanks to **@FreePalestine1970** and thanks Who contributed to the project
+This project was created by the **Xemu Team**, with special thanks to **@FreePalestine1970** and yebot32 thanks Who contributed to the project
 Planning, design and arrangement the version Android:
 
 
