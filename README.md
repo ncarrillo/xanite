@@ -17,8 +17,8 @@
 - **Graphics Optimization**:  
   The emulator adjusts its graphics settings (Low, Medium, High) based on the capabilities of your device to ensure smooth performance.
 
-- **HELP**
-If you have any issues or errors with the emulator, with tell us in discord https://discord.gg/mCnbeQWq
+- **HELP**:
+If you have any issues or errors with the emulator,tell us in discord https://discord.gg/mCnbeQWq
 
 - **OpenGL Rendering**:  
   Using OpenGL and GLFW, the emulator provides high-quality graphics rendering for a better gaming experience.
