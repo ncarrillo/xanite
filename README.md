@@ -18,7 +18,10 @@
   The emulator adjusts its graphics settings (Low, Medium, High) based on the capabilities of your device to ensure smooth performance.
 
 - **HELP**:
-If you have any issues or errors with the emulator,tell us in discord https://discord.gg/mCnbeQWq
+If you encounter any issues or errors with the emulator,
+please feel free to
+reach out to us via Discord.
+https://discord.gg/mCnbeQWq
 
 - **OpenGL Rendering**:  
   Using OpenGL and GLFW, the emulator provides high-quality graphics rendering for a better gaming experience.
@@ -90,8 +93,8 @@ If you have any issues or errors with the emulator,tell us in discord https://di
 
 ## Credits
 
-This project was created by the **Xemu Team**, with special thanks to **@FreePalestine1970** and yebot32 thanks Who contributed to the project
-Planning, design and arrangement the version Android:
+This project was created by the **Xemu Team**, with special thanks to **@FreePalestine1970**, **@Yebot32** And thanks to everyone who contributed to the project
+Planning, design, and arrangement to Xemu-android:
 
 
 - **C++** for the core emulator logic.
