@@ -24,7 +24,7 @@ If you have any issues or errors with the emulator,tell us in discord https://di
   Using OpenGL and GLFW, the emulator provides high-quality graphics rendering for a better gaming experience.
 
 - **Customizable Settings**:  
-  - You can adjust the FPS up to 60 to ensure smooth gameplay.
+  - 60 frames per second (FPS) with fluid and seamless gameplay.
   - VSync toggle for improved visual quality.
 
 - **Hardware Detection**:  
