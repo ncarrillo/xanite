@@ -12,10 +12,10 @@
 ## Features
 
 - **Game Compatibility**:  
-  You can play Xbox games from `.iso . xiso` file formats. This allows you to enjoy a wide range of classic Xbox games on your Android device.
+  You can play Xbox games from `.iso . xiso` file formats, providing access to a broad selection of classic Xbox titles on your Android device.
 
 - **Graphics Optimization**:  
-  The emulator adjusts its graphics settings (Low, Medium, High) based on the capabilities of your device to ensure smooth performance.
+  The emulator adjusts its  graphics settings (Low, Medium, High) based on the capabilities of your device to ensure smooth performance.
 
 - **HELP**:
 If you encounter any issues or errors with the emulator,
@@ -24,14 +24,15 @@ reach out to us via Discord.
 https://discord.gg/kHVcYaVa
 
 - **OpenGL Rendering**:  
-  Using OpenGL and GLFW, the emulator provides high-quality graphics rendering for a better gaming experience.
+  Leveraging OpenGL and GLFW, the emulator delivers superior graphics rendering to enhance the overall gaming experience.
 
 - **Customizable Settings**:  
   - 60 frames per second (FPS) with fluid and seamless gameplay.
-  - VSync toggle for improved visual quality.
+
+   - Enable V-Sync for enhanced visual smoothness and improved image quality.
 
 - **Hardware Detection**:  
-  Xemu Android automatically detects your device’s hardware, including your GPU and RAM, and optimizes settings accordingly.
+  Xemu-Android automatically detects your device's hardware, including the GPU and RAM, and optimizes settings to ensure optimal performance.
 
 - **Error Logging**:  
   Logs key events and errors, making it easier for you to troubleshoot issues if they arise.
@@ -78,8 +79,8 @@ https://discord.gg/kHVcYaVa
 ## Known Issues
 
 - Some games may not work due to format compatibility issues.
-- Occasionally, there may be crashes when loading unsupported files.
-- Performance may vary depending on the specifications of your device.
+- there may be crashes when loading unsupported files.
+- Performance may vary based on your device's specifications.
 
 ---
 
@@ -93,7 +94,7 @@ https://discord.gg/kHVcYaVa
 
 ## Credits
 
-This project was created by the **Xemu Team**, with special thanks to **@FreePalestine1970**, **@Yebot32** And thanks to everyone who contributed to the project
+This project was created by **@FreePalestine1970**, **@Yebot32** And thanks to everyone who contributed to the project
 Planning, design, and arrangement to Xemu-android:
 
 
