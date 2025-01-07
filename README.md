@@ -21,7 +21,7 @@
 If you encounter any issues or errors with the emulator,
 please feel free to
 reach out to us via Discord.
-https://discord.gg/kHVcYaVa
+https://discord.gg/VHvfg5FV
 
 - **OpenGL Rendering**:  
   Leveraging OpenGL and GLFW, the emulator delivers superior graphics rendering to enhance the overall gaming experience.
