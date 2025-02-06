@@ -8,12 +8,8 @@
 
  Please check the [FAQ](https://xemu.app/docs/faq/)
 ---
-
-## Features
-
-- **Game Compatibility**:  
-  You can play Xbox games from `.iso` file formats, providing access to a broad selection of classic Xbox titles on your Android device.
-
+##Game Compatibility
+  in your games Xbox original in file `.iso` There will be an acceptable number of games depending on your device. It will appear in the interface. show game
 
 - **HELP**:
 If you encounter any issues or errors with the emulator,
@@ -22,12 +18,10 @@ reach out to us via Discord.
 https://discord.gg/VHvfg5FV
 
 - **OpenGL Rendering**:  
-  Leveraging OpenGL and GLFW, the emulator delivers superior graphics rendering to enhance the overall gaming experience.
-
+  Leveraging OpenGL 3.0 and cdio, the delivers to enhance the overall games
+  
 - **Customizable Settings**:  
 30-60 frames per second (FPS) with fluid and seamless gameplay.
-
-   - Enable V-Sync for enhanced visual smoothness and improved image quality.
 
 - **Hardware Detection**:  
   Xemu-Android automatically detects your device's hardware, including the GPU and RAM, and optimizes settings to ensure optimal performance.
