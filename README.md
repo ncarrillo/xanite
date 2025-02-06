@@ -101,4 +101,5 @@ Planning, design, and arrangement to Xemu-android:
 Xemu Android is an independent project and is not affiliated with Microsoft or the original Xbox team. This emulator is for educational and personal use only...
 
 ##Support two developers 
-https://www.patreon.com/c/xemu_android/posts
+yes just two ❤️👇
+patreon.com/Xemu_android
