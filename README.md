@@ -46,11 +46,11 @@ https://discord.gg/VHvfg5FV
 
   -dimensity
 - **Minimum RAM**:
-   - 4 GB for not good 
+   - 4 GB  not good run games
 
-   - 6 GB for maybe games work 
+   - 6 GB  maybe good work games on emulator 
 
-   - 8+ GB for very good working games
+   - 8+ GB very good working games
 
 - **Graphics**:  
  Requires OpenGL ES 3.0 support
