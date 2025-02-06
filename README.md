@@ -1,6 +1,6 @@
 <p align="center">
-    <a href="https://github.com/Playcpa/Xemu-android/blob/main/xemu_logo.png">
-        <img height="120px" src="https://github.com/Playcpa/Xemu-android/blob/main/xemu_logo.png" />
+    <a href="https://github.com/dev-Ali2008/Xemu-android/blob/ff40b003f221712c45fbf7c61daa5e3bba668705/Xemu_android.png">
+        <img height="120px" src="https://github.com/dev-Ali2008/Xemu-android/blob/ff40b003f221712c45fbf7c61daa5e3bba668705/Xemu_android.png" />
     </a>
 </p>
 
