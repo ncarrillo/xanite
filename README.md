@@ -14,8 +14,6 @@
 - **Game Compatibility**:  
   You can play Xbox games from `.iso` file formats, providing access to a broad selection of classic Xbox titles on your Android device.
 
-- **Graphics Optimization**:  
-  The emulator adjusts its  graphics settings (Low, Medium, High) based on the capabilities of your device to ensure smooth performance.
 
 - **HELP**:
 If you encounter any issues or errors with the emulator,
@@ -27,7 +25,7 @@ https://discord.gg/VHvfg5FV
   Leveraging OpenGL and GLFW, the emulator delivers superior graphics rendering to enhance the overall gaming experience.
 
 - **Customizable Settings**:  
-  - 60 frames per second (FPS) with fluid and seamless gameplay.
+30-60 frames per second (FPS) with fluid and seamless gameplay.
 
    - Enable V-Sync for enhanced visual smoothness and improved image quality.
 
@@ -42,45 +40,44 @@ https://discord.gg/VHvfg5FV
 ## System Requirements
 
 - **Supported Processors**:  
-  -Snapdragon 680 and above.
-
-  -G85 ~~ G99
+  -Snapdragon 845 and above.
+   
+  -Helio G99 = You just need OpenGL 3.0  support
 
   -dimensity
 - **Minimum RAM**:
-   - 4 GB for Low Quality settings.
+   - 4 GB for not good 
 
-   - 6 GB for Medium Quality settings.
+   - 6 GB for maybe games work 
 
-   - 8+ GB for High Quality settings.
+   - 8+ GB for very good working games
 
 - **Graphics**:  
-  Requires OpenGL ES 3.0 support
+ Requires OpenGL ES 3.0 support
 
 - **Operating System**:  
-  Android 10 no root and later.
+  -Android 10 no root and later
 
+  -android 9 not Supports ~~sorry 
 ---
 
 ## How to Use
 
 1. **Load Resources**:
-   - BIOS file.
-   - Hard Disk Image.
-   - Boot ROM Image.
-   - Game file (`.iso`).
-   
-2. Once the resources are loaded, the emulator will automatically detect your device's hardware and adjust the settings for optimal performance.
+- you need this bios install here > soon
 
-3. Press "the game" and enjoy playing your Xbox game!
+- Game file (`iso`).
+
+3.You should first put games at the interface **play** You need to wait 20s To download the game in app > save (game.iso)
+
+4.After opening the interface loading game You must sure that game iso And be error free when downloading game iso 
 
 ---
-
 ## Known Issues
 
-- Some games may not work due to format compatibility issues.
-- there may be crashes when loading unsupported files.
-- Performance may vary based on your device's specifications.
+- Some games may not work because the app alpha It can't run most games. 
+- The error may be in game Make sure to check the small site because there are sites that you have to convert iso to xiso This will be added in the next update support xiso but not now 
+- Your Gpu may not be good enough To run games or display screen 
 
 ---
 
