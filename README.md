@@ -102,4 +102,4 @@ Xemu Android is an independent project and is not affiliated with Microsoft or t
 
 ##Support two developers 
 yes just two ❤️👇
-patreon.com/Xemu_android
+https://www.patreon.com/c/xemu_android/posts
