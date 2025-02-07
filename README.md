@@ -17,7 +17,7 @@
 If you encounter any issues or errors with the emulator,
 please feel free to
 reach out to us via Discord.
-https://discord.gg/VHvfg5FV
+https://discord.gg/7AdXU5tU
 
 - **OpenGL Rendering**:  
   Leveraging OpenGL 3.0 and cdio, the delivers to enhance the overall games
