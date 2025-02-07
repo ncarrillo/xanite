@@ -8,7 +8,9 @@
 
  Please check the [FAQ](https://xemu.app/docs/faq/)
 ---
-##Game Compatibility
+
+## Game Compatibility
+
   in your games Xbox original in file `.iso` There will be an acceptable number of games depending on your device. It will appear in the interface. show game
 
 - **HELP**:
