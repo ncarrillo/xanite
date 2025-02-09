@@ -60,9 +60,11 @@ https://discord.gg/7AdXU5tU
 ## How to Use
 
 1. **Load Resources**:
-- you need this bios install here > soon
+1- you need install bios
+https://www.mediafire.com/file/n4abnqihen9ofxy/XEMU_ANDROID_FILES.zip/file
+   
+2- install your game just here Because it is iso 
 
-- Game file (`iso`).
 
 3.You should first put games at the interface **play** You need to wait 20s To download the game in app > save (game.iso)
 
