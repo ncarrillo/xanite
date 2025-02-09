@@ -63,7 +63,8 @@ https://discord.gg/7AdXU5tU
 1- you need install bios
 https://www.mediafire.com/file/n4abnqihen9ofxy/XEMU_ANDROID_FILES.zip/file
    
-2- install your game just here Because it is iso 
+2- install your game just here Because it is iso <a href="https://github.com/dev-Ali2008/Xemu-android/blob/main/Game.md">game</a>
+&nbsp;&nbsp;| &nbsp;&nbsp;
 
 
 3.You should first put games at the interface **play** You need to wait 20s To download the game in app > save (game.iso)
