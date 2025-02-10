@@ -59,10 +59,10 @@ https://discord.gg/7AdXU5tU
 
 ## How to Use
 
-1. **Load Resources**:
 1- you need install bios
-https://www.mediafire.com/file/n4abnqihen9ofxy/XEMU_ANDROID_FILES.zip/file
-   
+<a href="https://www.mediafire.com/file/n4abnqihen9ofxy/XEMU_ANDROID_FILES.zip/file">bios</a>
+&nbsp;&nbsp; &nbsp;&nbsp;
+
 2- install your game just here Because it is iso <a href="https://github.com/dev-Ali2008/Xemu-android/blob/main/Game.md">game</a>
 &nbsp;&nbsp; &nbsp;&nbsp;
 
@@ -109,4 +109,5 @@ Xemu Android is an independent project and is not affiliated with Microsoft or t
 
 yes just two ❤️👇
 
-https://www.patreon.com/c/xemu_android/posts
+<a href="https://www.patreon.com/c/xemu_android/posts">patreon</a>
+&nbsp;&nbsp; &nbsp;&nbsp;
