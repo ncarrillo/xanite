@@ -59,8 +59,8 @@ https://discord.gg/7AdXU5tU
 
 ## How to Use
 
-1- you need install bios
-<a href="https://www.mediafire.com/file/n4abnqihen9ofxy/XEMU_ANDROID_FILES.zip/file">bios</a>
+1- you need install 
+<a href="https://www.mediafire.com/file/1px5bm6wxwgknu0/XEMU_ANDROID_FILES.zip/file">bios</a>
 &nbsp;&nbsp; &nbsp;&nbsp;
 
 2- install your game just here Because it is iso <a href="https://github.com/dev-Ali2008/Xemu-android/blob/main/Game.md">game</a>
