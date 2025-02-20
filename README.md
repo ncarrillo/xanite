@@ -85,9 +85,7 @@ Xemu-Android automatically identifies your device's hardware specifications, suc
 ---
 
 ## Credits
-
-This project was created by **@FreePalestine1970**, **@Yebot32** And thanks to everyone who contributed to the project
-Planning, design, and arrangement to Xemu-android:
+This project was developed by **@FreePalestine1970** and **@Yebot32** on Telegram. Special thanks to everyone who contributed to its success for Xemu-Android:
 
 
 - **C++** for the core emulator logic.
@@ -98,7 +96,7 @@ Planning, design, and arrangement to Xemu-android:
 ---
 
 ## Disclaimer
-Xemu Android is a standalone project, developed independently without any ties to Microsoft or Xemu pc. It serves solely educational and personal purposes.
+Xemu Android is a standalone project, developed independently without any ties to Microsoft or Xemu It serves solely educational and personal purposes.
 
 ## Support two developers 
 
