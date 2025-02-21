@@ -11,7 +11,7 @@
 
 ## Game Compatibility
 
-On your original Xbox, game files in the `.iso` format will be accessible, with the number of available games depending on your device's storage
+On your Xbox original, game files in the `.iso` format will be accessible, with the number of available games depending on your device's storage
 
 - **HELP**:
 If you encounter any issues or errors with the emulator,
