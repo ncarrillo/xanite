@@ -30,19 +30,20 @@ Xemu-Android automatically identifies your device's hardware specifications, suc
 ## System Requirements
 
 - **Supported Processors**:
-    - -Snapdragon 845 or newer
+  
+  -Snapdragon 845 or better
    
-  -Helio G99 = Requires support for OpenGL es 3.0
+  -Helio G99 or better
 
-  -dimensity
+  -dimensity 800 or better
 
 - **Minimum RAM**:
   
-   - 4 GB may struggle to support most games and is generally insufficient.  
+- 4 GB minimum
 
-- 6 GB could handle some games reasonably well, especially when running on an emulator.   
+- 6 GB decent
 
-- 8+ GB 👍
+- 8+ GB recommended
 
 - **Graphics**:  
  /-OpenGL ES 3.0/
@@ -50,12 +51,11 @@ Xemu-Android automatically identifies your device's hardware specifications, suc
 - **Operating System**:  
   -Android 10 no root and newer
 
-  -android 9 ~~not Supports ~~sorry
----
+  -android 9 and below not supported
 
 ## How to Use
 
-1- you need install 
+1- you need to install 
 <a href="https://www.mediafire.com/file/1px5bm6wxwgknu0/XEMU_ANDROID_FILES.zip/file">bios</a>
 &nbsp;&nbsp; &nbsp;&nbsp;
 
