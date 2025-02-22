@@ -49,6 +49,7 @@ Xemu-Android automatically identifies your device's hardware specifications, suc
  /-OpenGL ES 3.0/
 
 - **Operating System**:  
+
   -Android 10 or newer (no root)
 
   -android 9 and below not supported
