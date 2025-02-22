@@ -17,7 +17,7 @@ On your Xbox original, game files in the `.iso` format will be accessible, with 
 If you encounter any issues or errors with the emulator,
 please feel free to
 reach out to us via Discord.
-https://discord.gg/7AdXU5tU
+https://discord.gg/zDw6cvvd
 
 - **OpenGL Rendering**:  
 By utilizing OpenGL ES 3.0 combined with CDIO and ISO9660, the system aims to optimize and elevate the overall gaming experience.
@@ -49,7 +49,7 @@ Xemu-Android automatically identifies your device's hardware specifications, suc
  /-OpenGL ES 3.0/
 
 - **Operating System**:  
-  -Android 10 no root and newer
+  -Android 10 (no root) and newer
 
   -android 9 and below not supported
 
@@ -85,7 +85,7 @@ Xemu-Android automatically identifies your device's hardware specifications, suc
 ---
 
 ## Credits
-This project was developed by **@FreePalestine1970** and **@Yebot32** on Telegram. Special thanks to everyone who contributed to its success for Xemu-Android:
+This project was developed by **@FreePalestine1970** and **@Yebot32** on Telegram. Special thanks to everyone who supported Xemu-Android:
 
 
 - **C++** for the core emulator logic.
