@@ -41,7 +41,7 @@ Xemu-Android automatically identifies your device's hardware specifications, suc
   
 - 4 GB minimum
 
-- 6 GB decent
+- 6 GB decent 
 
 - 8+ GB recommended
 
@@ -49,7 +49,7 @@ Xemu-Android automatically identifies your device's hardware specifications, suc
  /-OpenGL ES 3.0/
 
 - **Operating System**:  
-  -Android 10 (no root) and newer
+  -Android 10 or newer (no root)
 
   -android 9 and below not supported
 
