@@ -4,10 +4,7 @@
     </a>
 </p>
 
-<h1 align="center">Xemu - Xbox original Emulator Android</h1>
-
- Please check the [FAQ](https://xemu.app/docs/faq/)
----
+<h1 align="center">xanite - Xbox original Emulator Android</h1>
 
 ## Game Compatibility
 
@@ -23,7 +20,7 @@ https://discord.gg/zDw6cvvd
 By utilizing OpenGL ES 3.0 combined with CDIO and ISO9660, the system aims to optimize and elevate the overall gaming experience.
 
 - **Hardware Detection**:  
-Xemu-Android automatically identifies your device's hardware specifications, such as the GPU and RAM, and fine-tunes the settings to deliver peak performance.
+xanite-Android automatically identifies your device's hardware specifications, such as the GPU and RAM, and fine-tunes the settings to deliver peak performance.
 
 ---
 
