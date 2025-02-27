@@ -4,7 +4,7 @@
     </a>
 </p>
 
-<h1 align="center"> xanite - Xbox original Emulator Android</h1>
+<h1 align="center"> xanite - original Xbox Emulator for Android</h1>
 
 ## Game Compatibility
 
