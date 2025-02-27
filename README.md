@@ -83,7 +83,7 @@ xanite-Android automatically identifies your device's hardware specifications, s
 ---
 
 ## Credits
-This project was developed by **@FreePalestine1970** and **@Yebot32** on Telegram. Special thanks to everyone who supported Xemu-Android:
+This project was developed by **@FreePalestine1970** and **@Yebot32** on Telegram. Special thanks to everyone who supported Xanite:
 
 
 - **C++** for the core emulator logic.
@@ -94,7 +94,7 @@ This project was developed by **@FreePalestine1970** and **@Yebot32** on Telegra
 ---
 
 ## Disclaimer
-Xemu Android is a standalone project, developed independently without any ties to Microsoft or Xemu It serves solely educational and personal purposes.
+Xanite is a standalone project, developed independently without any ties to Microsoft or Xemu It serves solely educational and personal purposes.
 
 ## Support two developers 
 
