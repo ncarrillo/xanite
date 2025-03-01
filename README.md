@@ -58,10 +58,10 @@ xanite-Android automatically identifies your device's hardware specifications, s
 <a href="https://www.mediafire.com/file/1px5bm6wxwgknu0/XEMU_ANDROID_FILES.zip/file">bios</a>
 &nbsp;&nbsp; &nbsp;&nbsp;
 
-2- install your game just here Because it is iso <a href="https://github.com/dev-Ali2008/Xemu-android/blob/main/Game.md">game</a>
+2- install your game here Because only iso is supported <a href="https://github.com/dev-Ali2008/Xemu-android/blob/main/Game.md">game</a>
 &nbsp;&nbsp; &nbsp;&nbsp;
 
-3. First, ensure that the games are available on the And click on your game
+3. ensure that the games are available And click on your game
 
 4. Once the game loading interface opens, verify that the game ISO is properly downloaded and free from errors.
 
