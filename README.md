@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center"> xanite - Original Xbox emulator for Android
-  25/3/25 or 3/15</h1>
+  25/3/20</h1>
   
 ## Game Compatibility
 
