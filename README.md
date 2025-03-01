@@ -102,5 +102,5 @@ Xanite is a standalone project, developed independently without any ties to Micr
 
 yes just two ❤️👇
 
-<a href="patreon.com/Xanite_android">patreon</a>
+<a href="https://www.patreon.com/c/xanite_android/posts">patreon</a>
 &nbsp;&nbsp; &nbsp;&nbsp;
