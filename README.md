@@ -6,7 +6,7 @@
 
 <h1 align="center"> xanite - Original Xbox emulator for Android
   25/3/25 or 3/15</h1>
-
+  
 ## Game Compatibility
 
 On your Xbox original, game files in the `.iso` format will be accessible, with the number of available games depending on your device's storage
@@ -93,6 +93,7 @@ This project was developed by **@FreePalestine1970** and **@Yebot32** on Telegra
 - **JNI** for integrating the emulator with -Android..
 - **others**
 ---
+note: ⚠️ The code and emulator were developed entirely from the ground up, with no use of xemu or similar resources. Referring to it as "Xemu Android" was a misstep, as it's a rather unsuitable and misleading name. And rights 
 
 ## Disclaimer
 Xanite is a standalone project, developed independently without any ties to Microsoft or Xemu It serves solely educational and personal purposes.
