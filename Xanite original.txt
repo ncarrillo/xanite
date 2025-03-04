@@ -1,0 +1,30 @@
+#include <winver.h>
+#include <Emulator>
+#include "config-host.h"
+#include "Xanite-version-macro.h"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION Xanite_VERSION_MAJOR,Xanite_VERSION_MINOR,Xanite_VERSION_PATCH,Xanite_VERSION_COMMIT
+PRODUCTVERSION Xanite_VERSION_MAJOR,Xanite_VERSION_MINOR,Xanite_VERSION_PATCH,Xanite_VERSION_COMMIT
+OPEN IN ANDROID 10 NO ROOT
+FILETYPE VFT_APP
+FILESUBTYPE VFT1_UNKNOWN
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "040REG4E4"
+    {
+      VALUE "FileDescription", Xbox Original Emulator Android"
+      VALUE "FileVersion", Xanite_Original_VERSION
+      VALUE "LegalCopyright", " not Copyright various authors. Released under the GNU General Public License."
+      VALUE "LegalTrademarks", "opengl 3.0 💀"
+      VALUE "ProductName", "Xanite-android"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x0459, 1155
+  }
+}
+
+IDI_ISO "GAME.ISO"
