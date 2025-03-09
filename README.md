@@ -14,8 +14,9 @@ On your Xbox original, game files in the `.iso` format will be accessible, with 
 - **HELP**:
 If you encounter any issues or errors with the emulator,
 please feel free to
-reach out to us via Discord.
-https://discord.gg/U5kytJ4dub
+reach out to us via .
+<a href="https://discord.gg/U5kytJ4dub">Discord</a>
+&nbsp;&nbsp; &nbsp;&nbsp;
 
 - **OpenGL Rendering**:  
 By utilizing OpenGL ES 3.0 combined with CDIO and ISO9660, the system aims to optimize and elevate the overall gaming experience.
