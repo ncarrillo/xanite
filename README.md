@@ -55,7 +55,7 @@ xanite-Android automatically identifies your device's hardware specifications, s
 ## How to Use
 
 1- you need to install 
-<a href="https://www.mediafire.com/file/1px5bm6wxwgknu0/XEMU_ANDROID_FILES.zip/file">bios</a>
+<a href="https://www.mediafire.com/file/v2y5tsn92i851bq/Xanite+OG+ANDROID+FILES.zip/file">bios</a>
 &nbsp;&nbsp; &nbsp;&nbsp;
 
 2- install your game here Because only iso is supported <a href="https://github.com/dev-Ali2008/Xemu-android/blob/main/Game.md">game</a>
