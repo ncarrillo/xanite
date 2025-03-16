@@ -1,6 +1,6 @@
 <p align="center">
-    <a href="https://github.com/dev-Ali2008/xanite-original-android/blob/9f44a642d546793253395ae20c7f6a38e1fd9151/Xanite%20original.png">
-        <img height="120px" src="https://github.com/dev-Ali2008/xanite-original-android/blob/9f44a642d546793253395ae20c7f6a38e1fd9151/Xanite%20original.png" />
+    <a href="https://github.com/dev-Ali2008/xanite-original-android/blob/4e4fb4e68ecc40a10e9ddf1588ab1015929d69a8/xanite_original_icon.png">
+        <img height="150px" src="https://github.com/dev-Ali2008/xanite-original-android/blob/4e4fb4e68ecc40a10e9ddf1588ab1015929d69a8/xanite_original_icon.png" />
     </a>
 </p>
 
