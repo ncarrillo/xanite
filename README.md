@@ -50,11 +50,11 @@ xanite-Android automatically identifies your device's hardware specifications, s
 - **Graphics**:  
  /-OpenGL ES 3.0/
 
-- **Operating System**  
-
+- **Operating System**
+- 
   - Android 10 (no root) or newer 
   - android 9 and below not supportes
-  - 
+  
 ## How to Use
 
 1- you need to install 
