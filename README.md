@@ -5,7 +5,10 @@
 </p>
 
 <h1 align="center"> xanite - Xbox Original emulator for Android </h1>
-  
+
+  <img src="https://github.com/dev-Ali2008/xanite-original-android/blob/0d0d3f0e3f8b7184ec8f588ab3dfcb9d88898fa0/Screen2.png" width="450">
+  <img
+</p>
 ## Game Compatibility
 
 On your Xbox original, game files in the `iso` format will be accessible, with the number of available games depending on your device's storage
