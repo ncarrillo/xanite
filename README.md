@@ -29,29 +29,28 @@ xanite-Android automatically identifies your device's hardware specifications, s
 
 - **Supported Processors**:
   
-  -Snapdragon 845 or better
-   
-  -Helio G99 or better
-
-  -dimensity 800 or better
+  - Snapdragon
+    
+  - Helio
+  
+  - dimensity
 
 - **Minimum RAM**:
   
-- 4 GB minimum
+  - 4 GB minimum
 
-- 6 GB decent 
+  - 6 GB decent 
 
-- 8+ GB recommended
+  - 8+ GB recommended
 
 - **Graphics**:  
  /-OpenGL ES 3.0/
 
-- **Operating System**:  
+- **Operating System**  
 
-  -Android 10 or newer (no root)
-
-  -android 9 and below not supported
-
+  - Android 10 (no root)or newer 
+  - android 9 and below not supportes
+  - 
 ## How to Use
 
 1- you need to install 
@@ -93,7 +92,7 @@ This project was developed by **@FreePalestine1970** and **@Yebot32** on Telegra
 - **JNI** for integrating the emulator with -Android..
 - **others**
 ---
-note: ⚠️ The code and emulator were developed entirely from the ground up, with no use of xemu or similar resources. Referring to it as "Xemu Android" was a misstep, as it's a rather unsuitable and misleading name. And rights 
+note: ⚠️ The code and emulator were developed entirely from the ground up, with no use of **xemu* or similar resources. Referring to it as ~~"Xemu Android"~~ was a misstep, as it's a rather unsuitable and misleading name. And rights 
 
 ## Disclaimer
 Xanite is a standalone project, developed independently without any ties to Microsoft or Xemu It serves solely educational and personal purposes.
