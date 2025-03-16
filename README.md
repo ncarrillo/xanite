@@ -48,7 +48,7 @@ xanite-Android automatically identifies your device's hardware specifications, s
   - 8+ GB recommended
 
 - **Graphics**:  
- /-OpenGL ES 3.0/
+  - OpenGL ES 3.0
 
 - **Operating System**
 
