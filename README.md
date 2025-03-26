@@ -96,7 +96,8 @@ This project was developed by **@FreePalestine1970** and **@Yebot32** on Telegra
 - **JNI** for integrating the emulator with -Android..
 - **others**
 ---
-note: ⚠️ The code and emulator were developed entirely from the ground up, with no use of **xemu* or similar resources. Referring to it as ~~"Xemu Android"~~ was a misstep, as it's a rather unsuitable and misleading name. And rights 
+note: ⚠️ The code and emulator were developed entirely from the ground up, with no use of **xemu* or similar resources. Referring to it as ~~"Xemu Android"~~ was a misstep, as it's a rather unsuitable and misleading name. And rights
+2- Reason for delay just me working in this emulator 1 in codes 
 
 ## Disclaimer
 Xanite is a standalone project, developed independently without any ties to Microsoft or Xemu It serves solely educational and personal purposes.
