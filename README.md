@@ -49,6 +49,7 @@ xanite-Android automatically identifies your device's hardware specifications, s
 
 - **Graphics**:  
   - OpenGL ES 3.0
+  - vulkan 1.1
 
 - **Operating System**
 
