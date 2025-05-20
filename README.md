@@ -6,23 +6,12 @@
 
 <h1 align="center"> xanite - Xbox Original emulator for Android </h1>
 
-  <img src="https://github.com/dev-Ali2008/xanite-original-android/blob/0d0d3f0e3f8b7184ec8f588ab3dfcb9d88898fa0/Screen2.png" width="450">
-  <img
-</p>
-
 ## Game Compatibility
 
 On your Xbox original, game files in the `iso` format will be accessible, with the number of available games depending on your device's storage
 
-- **HELP**:
-If you encounter any issues or errors with the emulator,
-please feel free to
-reach out to us via .
-<a href="https://discord.gg/U5kytJ4dub">Discord</a>
-&nbsp;&nbsp; &nbsp;&nbsp;
-
-- **OpenGL Rendering**:  
-By utilizing OpenGL ES 3.0 combined with CDIO and ISO9660, the system aims to optimize and elevate the overall gaming experience.
+- **OpenGL Rendering**: 
+By utilizing vulkan 1.1 combined with CDIO and ISO9660, the system aims to optimize and elevate the overall gaming experience.
 
 - **Hardware Detection**:  
 xanite-Android automatically identifies your device's hardware specifications, such as the GPU and RAM, and fine-tunes the settings to deliver peak performance.
@@ -34,8 +23,12 @@ xanite-Android automatically identifies your device's hardware specifications, s
 - **Supported Processors**:
   
   - Snapdragon
-    
-  - Helio
+
+  - opengl soon👇
+
+  - mali
+  
+  - Helio 
   
   - dimensity
 
@@ -48,7 +41,6 @@ xanite-Android automatically identifies your device's hardware specifications, s
   - 8+ GB recommended
 
 - **Graphics**:  
-  - OpenGL ES 3.0
   - vulkan 1.1
 
 - **Operating System**
@@ -92,14 +84,12 @@ This project was developed by **@FreePalestine1970** and **@Yebot32** on Telegra
 
 
 - **C++** for the core emulator logic.
-- **OpenGL ES 3.0** and **GLFW** for rendering.
+- **vulkan**
 - **cdio** 
 - **JNI** for integrating the emulator with -Android..
 - **others**
 ---
-note: ⚠️ The code and emulator were developed entirely from the ground up, with no use of **xemu* or similar resources. Referring to it as ~~"Xemu Android"~~ was a misstep, as it's a rather unsuitable and misleading name. And rights
-
-2- Reason for delay just me working in this emulator 1 in codes 
+note: ⚠️ again working Because of a virus delete everything
 
 ## Disclaimer
 Xanite is a standalone project, developed independently without any ties to Microsoft or Xemu It serves solely educational and personal purposes.
