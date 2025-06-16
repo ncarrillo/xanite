@@ -4,14 +4,19 @@
     </a>
 </p>
 
-<h1 align="center"> xanite - Xbox Original emulator for Android </h1>
+<h1 align="center"> xanite - Xbox Original emulator for Android 2025/6/23 </h1>
 
+ 
 ## Game Compatibility
 
-On your Xbox original, game files in the `iso` format will be accessible, with the number of available games depending on your device's storage
+On your Xbox original, game files in the `iso` `xiso` format will be accessible, with the number of available games depending on your device's storage
 
-- **OpenGL Rendering**: 
-By utilizing vulkan 1.1 combined with CDIO and ISO9660, the system aims to optimize and elevate the overall gaming experience.
+### Android
+<a><img src="https://img.shields.io/badge/current Android A64 build-none-aaaaaa.svg"></a>
+
+### windows 
+<a><img src="https://img.shields.io/badge/current window x64 build-none-aaaaaa.svg"></a>
+
 
 - **Hardware Detection**:  
 xanite-Android automatically identifies your device's hardware specifications, such as the GPU and RAM, and fine-tunes the settings to deliver peak performance.
@@ -23,8 +28,6 @@ xanite-Android automatically identifies your device's hardware specifications, s
 - **Supported Processors**:
   
   - Snapdragon
-
-  - opengl soon👇
 
   - mali
   
@@ -41,7 +44,7 @@ xanite-Android automatically identifies your device's hardware specifications, s
   - 8+ GB recommended
 
 - **Graphics**:  
-  - vulkan 1.1
+  - shaderxbox ( private )
 
 - **Operating System**
 
@@ -57,40 +60,12 @@ xanite-Android automatically identifies your device's hardware specifications, s
 2- install your game here Because only iso is supported <a href="https://github.com/dev-Ali2008/Xemu-android/blob/main/Game.md">game</a>
 &nbsp;&nbsp; &nbsp;&nbsp;
 
-3. Search in your And click on your game
-
-4. Once the game loading interface opens, verify that the game ISO is properly downloaded and free from errors.
-
----
-## Known Issues
-
- - Certain games might not function properly because the app, currently in its alpha stage, struggles to support most games.
-
-- The issue could also be with the game itself. Ensure you the relevant, as some platforms require converting ISO files to XISO. Support for XISO conversion will be included in the next update, but it’s not available at the moment.
-  
-- Additionally, your GPU might not be powerful enough to run the games or render the display correctly.  
-
----
-
-## Future Improvements
-
-- Expanding compatibility to support a wider range of games.  
-- Optimizing performance for better functionality on lower-end devices.  
-
 ---
 
 ## Credits
 This project was developed by **@FreePalestine1970** and **@Yebot32** on Telegram. Special thanks to everyone who supported Xanite:
 
-
-- **C++** for the core emulator logic.
-- **vulkan**
-- **cdio** 
-- **JNI** for integrating the emulator with -Android..
-- **others**
 ---
-note: ⚠️ again working Because of a virus delete everything
-
 ## Disclaimer
 Xanite is a standalone project, developed independently without any ties to Microsoft or Xemu It serves solely educational and personal purposes.
 
