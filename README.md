@@ -4,7 +4,7 @@
     </a>
 </p>
 
-<h1 align="center"> xanite - Xbox Original emulator for Android 2025/6/23 </h1>
+<h1 align="center"> xanite - Xbox Original emulator for Android 2025/6/30 </h1>
 
  
 ## Game Compatibility
