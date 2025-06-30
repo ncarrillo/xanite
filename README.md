@@ -56,12 +56,9 @@ xanite automatically identifies your device's hardware specifications, such as t
   
 ## How to Use
 
-1- you need to install 
-<a href="https://www.mediafire.com/file/v2y5tsn92i851bq/Xanite+OG+ANDROID+FILES.zip/file">bios</a>
-&nbsp;&nbsp; &nbsp;&nbsp;
+1- you need to install bios obtained from your own Xbox
 
-2- install your game here Because only iso is supported <a href="https://github.com/dev-Ali2008/Xemu-android/blob/main/Game.md">game</a>
-&nbsp;&nbsp; &nbsp;&nbsp;
+2- get the game in iso or xiso format from your own Xbox and your own game copy
 
 ---
 
