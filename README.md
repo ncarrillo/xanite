@@ -10,7 +10,7 @@
  
 ## Game Compatibility
 
-when using the emulator,game files in the `iso` `xiso` format will be accessible, with the number of available games depending on your device's storage
+when using the emulator, game files in the `iso` `xiso` format will be accessible, with the number of available games depending on your device's storage
 
 ### Android
 <a><img src="https://img.shields.io/badge/current Android A64 build-none-aaaaaa.svg"></a>
