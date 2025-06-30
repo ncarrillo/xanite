@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center"> Xanite -
- xbox OG/360 emulator  </h1>
+ Xbox OG/360 emulator  </h1>
 
  
 ## Game Compatibility
