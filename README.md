@@ -4,7 +4,7 @@
     </a>
 </p>
 
-<h1 align="center"> xanite - emulator for Android  </h1>
+<h1 align="center"> xanite - Xbox original and 360 emulator for Android  </h1>
 
  
 ## Game Compatibility
@@ -74,3 +74,8 @@ Xanite is a standalone project, developed independently without any ties to Micr
 yes just two ❤️👇
 
 https://patreon.com/Xanite_android
+
+https://discord.gg/U5kytJ4dub
+
+https://youtube.com/@emulator_xanite?si=n7TRv-Gyh3mDktlV
+
