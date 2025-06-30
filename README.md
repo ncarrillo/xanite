@@ -9,7 +9,7 @@
  
 ## Game Compatibility
 
-On your Xbox original, game files in the `iso` `xiso` format will be accessible, with the number of available games depending on your device's storage
+when using the emulator,game files in the `iso` `xiso` format will be accessible, with the number of available games depending on your device's storage
 
 ### Android
 <a><img src="https://img.shields.io/badge/current Android A64 build-none-aaaaaa.svg"></a>
@@ -19,7 +19,7 @@ On your Xbox original, game files in the `iso` `xiso` format will be accessible,
 
 
 - **Hardware Detection**:  
-xanite-Android automatically identifies your device's hardware specifications, such as the GPU and RAM, and fine-tunes the settings to deliver peak performance.
+xanite automatically identifies your device's hardware specifications, such as the GPU and RAM, and fine-tunes the settings to deliver peak performance.
 
 ---
 
