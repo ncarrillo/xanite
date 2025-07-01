@@ -7,68 +7,89 @@
 <h1 align="center"> Xanite -
  Xbox OG/360 emulator  </h1>
 
- 
-## Game Compatibility
+This project emulates both the original Xbox and Xbox 360 consoles on Android and Windows platforms, supporting game ROMs in various formats.
+( The most important thing is patience )
 
-when using the emulator, game files in the `iso` `xiso` format will be accessible, with the number of available games depending on your device's storage
+## Game Compatibility
+- Will be tested by our testers in discord and will be improved in every update
+
+### Xbox Original
+- Supported formats: iso, xiso
+- BIOS required (must be obtained from your own Xbox)
+
+### Xbox 360
+- Supported formats: iso, xiso, xex, god
+- XBOX360 system files required (must be obtained from your own console)
+
+Game availability depends on your device's storage capacity.
+
+## Platform Support
 
 ### Android
-<a><img src="https://img.shields.io/badge/current Android A64 build-none-aaaaaa.svg"></a>
+<a><img src="https://img.shields.io/badge/Android A64 build-none-aaaaaa.svg"></a>
 
-### windows 
-<a><img src="https://img.shields.io/badge/current window x64 build-none-aaaaaa.svg"></a>
+### Windows 
+<a><img src="https://img.shields.io/badge/Windows x64 build-none-aaaaaa.svg"></a>
 
+## Key Features
 
-- **Hardware Detection**:  
-xanite automatically identifies your device's hardware specifications, such as the GPU and RAM, and fine-tunes the settings to deliver peak performance.
+- Hardware Detection:  
+Automatically identifies your device's hardware (GPU, RAM) and optimizes settings for peak performance
 
----
+- Dual Console Support:  
+Play both Xbox and Xbox 360 games in one emulator
+
+- Performance Scaling:  
+you can manually adjust the resolution and performance in settings for experiment or low end devices
 
 ## System Requirements
 
-- **Supported Processors**:
-  
-  - Snapdragon
-
-  - mali
-  
+### For Xbox Original
+- Processors:
+  - Snapdragon 
+  - Mali
   - Helio 
-  
-  - dimensity
+  - Dimensity
 
-- **Minimum RAM**:
-  
-  - 4 GB minimum
+- RAM:
+  - 4/6 GB minimum
+  - 8+ GB for best performance
 
-  - 6 GB decent 
+### For Xbox 360 (higher requirements)
+- Processors:
+  - Snapdragon 8-series
+  - High-end Mali GPUs
+  - Desktop-grade x64 processors for Windows
 
-  - 8+ GB recommended
+- RAM:
+  - 8 GB minimum
+  - 12+ GB for optimal performance
 
-- **Graphics**:  
+### Graphics:
+- shaderxbox (private technology)
 
-  - shaderxbox ( private )
+### OS Requirements:
+- Android 10+ (no root)
+- Windows 10/11 x64
+- Android 9/windows 8.1 and below not supported
 
-- **Operating System**
-
-  - Android 10 (no root) or newer 
-
-  - android 9 and below is not supported
-  
 ## How to Use
 
-1- you need to install bios obtained from your own Xbox
+1. For Xbox Original:
+   - Install BIOS from your own Xbox
+   - Obtain games in iso/xiso format from your personal game copies
 
-2- get the game in iso or xiso format from your own Xbox and your own game copy
-
----
+2. For Xbox 360:
+   - Requires Xbox 360 system files from your console
+   - Games in iso/xex/god format from your personal collection
 
 ## Credits
-This project was developed by **@FreePalestine1970** and **@Yebot32** on Telegram. Special thanks to everyone who supported Xanite:
+Developed by @FreePalestine1970 and @Yebot32 on Telegram.  
+Special thanks to all Xanite supporters.
 
----
 ## Disclaimer
-Xanite is a standalone project, developed independently without any ties to Microsoft or Xemu It serves solely educational and personal purposes.
-
+Xanite is an independent project not affiliated with Microsoft, Xemu, or Xenia. For educational and personal use only. You must obtain all BIOS/system files and games from hardware you own.
+ 
 ## Support two developers 
 
 yes just two ❤️👇
