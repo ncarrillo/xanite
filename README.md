@@ -81,6 +81,10 @@ you can manually adjust the resolution and performance in settings for experimen
    - Requires Xbox 360 system files from your console
    - Games in iso/xex/god format from your personal collection
 
+## Contributing
+
+If you want to contribute as a developer, please contact us in the Discord
+
 ## Credits
 Developed by @FreePalestine1970 and @Yebot32 on Telegram.  
 Special thanks to all Xanite supporters.
