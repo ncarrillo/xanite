@@ -100,5 +100,7 @@ https://patreon.com/Xanite_android
 
 https://discord.gg/U5kytJ4dub
 
+https://t.me/xanite_xbox
+
 https://youtube.com/@emulator_xanite?si=n7TRv-Gyh3mDktlV
 
