@@ -19,7 +19,7 @@ This project emulates both the original Xbox and Xbox 360 consoles on Android an
 - Supported formats: iso, xex, god
 - system files required (must be obtained from your own Xbox)
 
-Game availability depends on your device's storage capacity.
+the games you can play depends on your device's performance and storage capacity.
 
 ## Platform Support
 
