@@ -83,7 +83,7 @@ you can manually adjust the resolution and performance in settings for experimen
 
 ## Contributing
 
-If you want to contribute as a developer, please contact us in the Discord
+If you want to contribute as a developer, please contact us in discord
 
 ## Credits
 Developed by @FreePalestine1970 and @Yebot32 on Telegram.  
