@@ -7,7 +7,7 @@
 <h1 align="center"> Xanite -
  Xbox OG/360 emulator  </h1>
 
-This project emulates both the original Xbox and Xbox 360 consoles on Android and Windows platforms, supporting game ROMs in various formats. ( The most important thing is patience )
+This project emulates both the original Xbox and Xbox 360 consoles on Android and Windows platforms, supporting game ROMs in various formats.
 
 ## Game Compatibility
 
@@ -17,7 +17,7 @@ This project emulates both the original Xbox and Xbox 360 consoles on Android an
 
 ### Xbox 360
 - Supported formats: iso, xex, god
-- XBOX360 system files required (must be obtained from your own console)
+- system files required (must be obtained from your own Xbox)
 
 Game availability depends on your device's storage capacity.
 
