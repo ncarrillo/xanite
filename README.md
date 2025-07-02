@@ -30,7 +30,7 @@ the games you can play depends on your device's performance and storage capacity
 
   <img height="200px" src="https://github.com/dev-Ali2008/xanite/blob/e718259484b8afd71a774a7cae3a15f5caacf5e5/test.png" />
     </a>
-## Key Features
+-- Key Features
 
 - Hardware Detection:  
 Automatically identifies your device's hardware (GPU, RAM) and optimizes settings for peak performance
