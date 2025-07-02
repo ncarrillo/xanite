@@ -54,19 +54,13 @@ you can manually adjust the resolution and performance in settings for experimen
 - Processors:
   - Snapdragon 8-series
   - High-end Mali GPUs
-  - Desktop-grade x64 processors for Windows
-
-- RAM:
-  - 8 GB minimum
-  - 12+ GB for optimal performance
 
 ### Graphics:
 - shaderxbox (private technology)
 
 ### OS Requirements:
 - Android 10+ (no root)
-- Windows 10/11 x64
-- Android 9/windows 8.1 and below not supported
+- Android 9 and below not supported
 
 ## How to Use
 
@@ -88,6 +82,9 @@ Special thanks to all Xanite supporters.
 
 ## Disclaimer
 Xanite is an independent project not affiliated with Microsoft, Xemu, or Xenia. For educational and personal use only. You must obtain all BIOS/system files and games from hardware you own.
+Performance is not guaranteed.
+
+xbox 360 emulation is not currently aviable. 
  
 ## Support developers 
 ❤️👇
