@@ -89,9 +89,8 @@ Special thanks to all Xanite supporters.
 ## Disclaimer
 Xanite is an independent project not affiliated with Microsoft, Xemu, or Xenia. For educational and personal use only. You must obtain all BIOS/system files and games from hardware you own.
  
-## Support two developers 
-
-yes just two ❤️👇
+## Support developers 
+❤️👇
 
 https://patreon.com/Xanite_android
 
