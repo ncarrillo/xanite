@@ -7,6 +7,8 @@
 <h1 align="center"> Xanite -
  Xbox OG/360 emulator  </h1>
 
+Xanite is a "proof of concept" emulator. 
+
 This project emulates both the original Xbox and Xbox 360 consoles on Android, supporting game ROMs in various formats.
 
 ## Game Compatibility
