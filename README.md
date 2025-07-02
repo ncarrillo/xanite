@@ -7,7 +7,7 @@
 <h1 align="center"> Xanite -
  Xbox OG/360 emulator  </h1>
 
-This project emulates both the original Xbox and Xbox 360 consoles on Android platform, supporting game ROMs in various formats.
+This project emulates both the original Xbox and Xbox 360 consoles on Android, supporting game ROMs in various formats.
 
 ## Game Compatibility
 
@@ -41,8 +41,8 @@ you can manually adjust the resolution and performance in settings for experimen
 
 ### For Xbox Original
 - Processors:
-  - Snapdragon 
-  - Mali
+  - Snapdragon
+  - Exynos
   - Helio 
   - Dimensity
 
