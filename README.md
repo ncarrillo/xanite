@@ -84,7 +84,7 @@ Special thanks to all Xanite supporters.
 Xanite is an independent project not affiliated with Microsoft, Xemu, or Xenia. For educational and personal use only. You must obtain all BIOS/system files and games from hardware you own.
 Performance is not guaranteed.
 
-xbox 360 emulation is not currently avilable. 
+xbox 360 emulation is not currently available. 
  
 ## Support developers 
 ❤️👇
