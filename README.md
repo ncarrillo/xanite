@@ -26,9 +26,6 @@ the games you can play depends on your device's performance and storage capacity
 ### Android
 <a><img src="https://img.shields.io/badge/Android A64 build-none-aaaaaa.svg"></a>
 
-### Windows 
-<a><img src="https://img.shields.io/badge/Windows x64 build-none-aaaaaa.svg"></a>
-
 ## Key Features
 
 - Hardware Detection:  
