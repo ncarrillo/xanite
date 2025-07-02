@@ -94,7 +94,7 @@ Xanite is using XEMU source code for xbox og emulation
 
 XEMU link: https://github.com/xemu-project/xemu
  
-## Support developers 
+## Support developers if you'd like
 ❤️👇
 
 https://patreon.com/Xanite_android
