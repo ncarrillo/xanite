@@ -85,6 +85,10 @@ Xanite is an independent project not affiliated with Microsoft, Xemu, or Xenia. 
 Performance is not guaranteed.
 
 xbox 360 emulation is not currently available. 
+
+Xanite is using XEMU source code for xbox og emulation
+
+XEMU link: https://github.com/xemu-project/xemu
  
 ## Support developers 
 ❤️👇
