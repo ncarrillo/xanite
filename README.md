@@ -95,7 +95,11 @@ Xanite is not currently available.
 
 Our emulator uses Xemu's open-source code for original Xbox emulation
 
+and emulator uses Xenia open-source code for xbox 360 emulator 
+
 XEMU link: https://github.com/xemu-project/xemu
+
+ Xenia link: https://xenia.jp/download/
  
 ## Support developers (optional)
 ❤️👇
