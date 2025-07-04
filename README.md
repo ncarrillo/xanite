@@ -101,7 +101,7 @@ XEMU link: https://github.com/xemu-project/xemu
 
  Xenia link: https://xenia.jp/download/
  
-## Groups developers (optional)
+## xanite socials
 ❤️👇
 
 https://discord.gg/U5kytJ4dub
