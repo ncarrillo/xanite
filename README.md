@@ -101,10 +101,8 @@ XEMU link: https://github.com/xemu-project/xemu
 
  Xenia link: https://xenia.jp/download/
  
-## Support developers (optional)
+## Groups developers (optional)
 ❤️👇
-
-https://patreon.com/Xanite_android
 
 https://discord.gg/U5kytJ4dub
 
