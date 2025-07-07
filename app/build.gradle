@@ -52,7 +52,6 @@ configurations.all {
     exclude group: 'androidx.emoji2', module: 'emoji2-views-helper'
 }
 
-    // Compose (متوافقة مع compileSdk 33)
     implementation 'androidx.activity:activity-compose:1.7.2'
     implementation 'androidx.compose.ui:ui:1.5.4'
     implementation 'androidx.compose.ui:ui-tooling:1.5.4'
