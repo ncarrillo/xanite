@@ -97,15 +97,14 @@ class Xbox360Activity : AppCompatActivity() {
             .setNegativeButton("Cancel", null)
             .show()
     }
-
-    // ✅ تم إضافة هذه الدالة لحذف اللعبة فعلياً
+    
     private fun deleteGame(game: Game) {
         val file = File(game.path)
         if (file.exists()) {
             val deleted = file.delete()
             if (deleted) {
                 showToast("Game deleted")
-                viewModel.loadGames() // تحديث القائمة بعد الحذف
+                viewModel.loadGames() // تحديث 
             } else {
                 showToast("Failed to delete game")
             }
@@ -161,7 +160,6 @@ class Xbox360Activity : AppCompatActivity() {
     }
 }
 
-// ✅ نفس الكود بدون تغيير
 class GridSpacingItemDecoration(
     private val spanCount: Int,
     private val spacing: Int,
