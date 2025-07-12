@@ -30,10 +30,8 @@ class Xbox360GamesAdapter(
         private val gameDetails: TextView = itemView.findViewById(R.id.gameDetails)
 
         fun bind(game: Game) {
-            // Set game name
             gameName.text = game.name
-
-            // Set game details
+            
             val typeText = when (game.type) {
                 "XBOX360" -> "Xbox 360 Game"
                 "ISO" -> "ISO Image"
@@ -43,7 +41,7 @@ class Xbox360GamesAdapter(
             }
 
             val sizeText = try {
-                formatSize(game.fileSize) // Use fileSize instead of size
+                formatSize(game.fileSize) 
             } catch (e: Exception) {
                 "Size: N/A"
             }
