@@ -18,7 +18,6 @@ class Xbox360Repository(private val context: Context) {
     fun getGames(): List<Game> {
         return gamesDir.listFiles()?.flatMap { file ->
             when {
-                // حالة مجلدات Xbox 360 (مثل 584111F2)
                 file.isDirectory && file.name.matches(xbox360FolderPattern) -> {
                     val gameFiles = file.walk()
                         .filter { it.isFile && it.parentFile?.name == "000D0000" }
@@ -30,11 +29,9 @@ class Xbox360Repository(private val context: Context) {
                         emptyList()
                     }
                 }
-                // حالة الملفات المضغوطة (ZIP)
                 file.extension.lowercase() in supportedArchiveExtensions -> {
                     handleArchiveFile(file)
                 }
-                // حالة الملفات العادية المدعومة
                 file.extension.lowercase() in supportedExtensions -> {
                     listOf(Game(
                         path = file.absolutePath,
@@ -48,7 +45,6 @@ class Xbox360Repository(private val context: Context) {
     }
 
     private fun createXbox360Game(folder: File, gameFile: File): Game {
-        // محاولة استخراج اسم اللعبة من اسم المجلد الأصلي (إذا كان من ZIP)
         val originalFolderName = folder.parentFile?.name?.removeSuffix(".zip") ?: folder.name
         return Game(
             path = gameFile.absolutePath,
@@ -58,10 +54,9 @@ class Xbox360Repository(private val context: Context) {
     }
 
     private fun extractGameName(folderName: String): String {
-        // تحسين اسم اللعبة من اسم الملف الأصلي
         return folderName
-            .replace(Regex("""\[.*?\]|\(.*?\)"""), "") // إزالة الأقواس
-            .replace(Regex("""^\s*-|\s*-\s*$"""), "") // إزالة الواصلات
+            .replace(Regex("""\[.*?\]|\(.*?\)"""), "") 
+            .replace(Regex("""^\s*-|\s*-\s*$"""), "") 
             .trim()
     }
 
@@ -72,8 +67,6 @@ class Xbox360Repository(private val context: Context) {
                 return emptyList()
             }
         }
-        
-        // البحث عن ملفات الألعاب في المجلد المستخرج
         return extractedDir.listFiles()?.flatMap { innerFile ->
             when {
                 innerFile.isDirectory && innerFile.name.matches(xbox360FolderPattern) -> {
@@ -104,7 +97,7 @@ class Xbox360Repository(private val context: Context) {
                     val inputStream = context.contentResolver.openInputStream(uri) ?: return false
                     FileUtils.copyStreamToFile(inputStream, destFile)
                     
-                    // استخراج الملفات من ZIP
+                    // zip files here
                     handleArchiveFile(destFile).isNotEmpty()
                 }
                 else -> {
