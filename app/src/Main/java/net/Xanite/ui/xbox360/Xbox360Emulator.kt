@@ -27,10 +27,9 @@ class Xbox360Emulator(private val context: Context) {
             setContentView(binding.root)
             window?.setLayout(FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT)
             setCancelable(false)
-            
-            // عرض اسم اللعبة (باستخدام getName() بدلاً من title)
+         
             val gameName = game.name ?: "Unknown Game"
-            Toast.makeText(context, "تشغيل اللعبة: $gameName", Toast.LENGTH_SHORT).show()
+            Toast.makeText(context, "$gameName", Toast.LENGTH_SHORT).show()
             
             startColorAnimation()
             show()
