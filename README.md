@@ -46,8 +46,8 @@ you can manually adjust the resolution and performance in settings for experimen
 
 ### For Xbox Original
 - Processors:
-  - Snapdragon
-  - Exynos
+  - Snapdragon 845/855 or better
+  - Exynos 990 or better
   - Helio 
   - Dimensity
 
