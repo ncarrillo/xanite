@@ -48,8 +48,7 @@ you can manually adjust the resolution and performance in settings for experimen
 - Processors:
   - Snapdragon 845/855 or better
   - Exynos 990 or better
-  - Helio 
-  - Dimensity
+  - Dimensity 1000 or better
 
 - RAM:
   - 4/6 GB minimum
@@ -57,8 +56,9 @@ you can manually adjust the resolution and performance in settings for experimen
 
 ### For Xbox 360 (higher requirements)
 - Processors:
-  - Snapdragon 8-series
-  - High-end Mali GPUs
+  - Snapdragon 888 or better
+  - Exynos 2200 or better
+  - Dimensity 8300 or better
 
 ### Graphics:
 - shaderxbox (private technology)
