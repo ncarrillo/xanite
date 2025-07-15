@@ -52,13 +52,18 @@ you can manually adjust the resolution and performance in settings for experimen
 
 - RAM:
   - 4/6 GB minimum
-  - 8+ GB for best performance
+  - 8+ GB recommended
 
 ### For Xbox 360 (higher requirements)
 - Processors:
+
   - Snapdragon 888 or better
   - Exynos 2200 or better
   - Dimensity 8300 or better
+
+- RAM:
+  - 8 GB minimum
+  - 12+ GB recommended
 
 ### Graphics:
 - shaderxbox (private technology)
