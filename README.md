@@ -91,7 +91,7 @@ Developed by @FreePalestine1970,@Yebot32 and @Mr Polonium on Telegram.
 Special thanks to all Xanite supporters.
 
 ## DISCLAIMER !
-Xanite is an open-source project not affiliated with Microsoft, Xemu, or Xenia. It is intended for educational use only. We utilize open-source code from Xemu, which is freely available under its license.
+Xanite is an open-source project not affiliated with Microsoft, Xemu, or Xenia. It is intended for educational  
 
 We do not condone piracy. BIOS files and game ROMs should be legally owned. While the emulator itself is legal, possessing illegal copies of games or BIOS files is not. Be cautious online.
 
@@ -99,13 +99,6 @@ Performance is not guaranteed in the current BETA version.
 
 Xanite is not currently available.
 
-Our emulator uses Xemu's open-source code for original Xbox emulation
-
-and emulator uses Xenia open-source code for xbox 360 emulator 
-
-XEMU link: https://github.com/xemu-project/xemu
-
- Xenia link: https://xenia.jp/download/
  
 ## xanite socials
 ❤️👇
