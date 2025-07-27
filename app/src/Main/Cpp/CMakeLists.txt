@@ -1,33 +1,66 @@
-cmake_minimum_required(VERSION 3.18.6)
-project("Xanite")
+cmake_minimum_required(VERSION 3.23.1)
+
+project(Xanite LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -O2 -fPIC")
 
-# Android NDK log + native
-find_library(log-lib log)
-find_library(android-lib android)
-find_library(vulkan-lib vulkan)
+if(ANDROID)
+    set(CMAKE_SYSTEM_NAME Android)
+    set(CMAKE_SYSTEM_VERSION 29)
+    set(ANDROID_PLATFORM android-29)
+    set(ANDROID_ABI arm64-v8a)
+    set(CMAKE_ANDROID_ARCH_ABI arm64-v8a)
+    set(CMAKE_ANDROID_NDK $ENV{ANDROID_NDK})
+    set(CMAKE_ANDROID_STL_TYPE c++_shared)
 
-if (CMAKE_SYSTEM_PROCESSOR MATCHES "aarch64")
-    add_subdirectory(libadrenotools)
-else()
-    add_library(adrenotools INTERFACE)
+    add_compile_definitions(ARM_NEON=1 ARM64=1)
+    add_compile_options(-march=armv8-a)
 endif()
 
-include_directories(${ANDROID_NDK}/sources/third_party/vulkan/include)
-
-# Native **
-add_library(${CMAKE_PROJECT_NAME} SHARED
-    native-lib.cpp
+add_library(
+    xbox_emulator
+    SHARED
+    Xbox_og/xbox_emulator.cpp
 )
 
-target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE USE_VULKAN=1)
-
-target_link_libraries(${CMAKE_PROJECT_NAME}
-    ${log-lib}
-    ${android-lib}
-    ${vulkan-lib}
-    adrenotools
+add_library(
+    x86_core
+    SHARED
+    Xbox_og/x86_core.cpp
 )
+
+add_library(
+    xbox_kernel
+    SHARED
+    Xbox_og/xbox_kernel.cpp
+)
+
+add_library(
+    xbox_memory
+    SHARED
+    Xbox_og/xbox_memory.cpp
+)
+
+add_library(
+    nv2a_renderer
+    SHARED
+    Xbox_og/nv2a_renderer.cpp
+)
+
+add_library(
+    xbox_utils
+    SHARED
+    Xbox_og/xbox_utils.cpp
+)
+
+find_library(log-lib log)
+find_library(android-lib android)
+
+target_link_libraries(xbox_emulator ${log-lib} ${android-lib})
+target_link_libraries(x86_core ${log-lib} ${android-lib})
+target_link_libraries(xbox_kernel ${log-lib} ${android-lib})
+target_link_libraries(xbox_memory ${log-lib} ${android-lib})
+target_link_libraries(nv2a_renderer ${log-lib} ${android-lib})
+target_link_libraries(xbox_utils ${log-lib} ${android-lib})
