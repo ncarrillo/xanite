@@ -51,7 +51,7 @@ you can manually adjust the resolution and performance in settings for experimen
   - Dimensity 1000 or better
 
 - RAM:
-  - 4/6 GB minimum
+  - 4 GB minimum
   - 8+ GB recommended
 
 ### For Xbox 360 (higher requirements)
@@ -87,7 +87,7 @@ you can manually adjust the resolution and performance in settings for experimen
 If you want to contribute as a developer, please contact us in discord
 
 ## Credits
-Developed by @FreePalestine1970,@Yebot32 and @Mr Polonium on Telegram.  
+Developed by @FreePalestine1970,@Yebot32 and 4 other developers on Telegram and discord.  
 Special thanks to all Xanite supporters.
 
 ## DISCLAIMER !
