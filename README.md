@@ -102,10 +102,7 @@ Xanite is not currently available.
  
 ## xanite socials
 ❤️👇
+website 
 
-https://discord.gg/U5kytJ4dub
-
-https://t.me/xanite_xbox
-
-https://youtube.com/@emulator_xanite?si=n7TRv-Gyh3mDktlV
+https://dev-ali2008.github.io/Xanite.io/#social
 
