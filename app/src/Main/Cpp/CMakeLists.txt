@@ -19,48 +19,57 @@ if(ANDROID)
     add_compile_options(-march=armv8-a)
 endif()
 
-add_library(
-    xbox_emulator
-    SHARED
-    Xbox_og/xbox_emulator.cpp
-)
-
-add_library(
-    x86_core
-    SHARED
-    Xbox_og/x86_core.cpp
-)
-
-add_library(
-    xbox_kernel
-    SHARED
-    Xbox_og/xbox_kernel.cpp
-)
+find_library(log-lib log)
+find_library(android-lib android)
 
 add_library(
     xbox_memory
     SHARED
     Xbox_og/xbox_memory.cpp
 )
-
-add_library(
-    nv2a_renderer
-    SHARED
-    Xbox_og/nv2a_renderer.cpp
-)
+target_link_libraries(xbox_memory ${log-lib} ${android-lib})
 
 add_library(
     xbox_utils
     SHARED
     Xbox_og/xbox_utils.cpp
 )
-
-find_library(log-lib log)
-find_library(android-lib android)
-
-target_link_libraries(xbox_emulator ${log-lib} ${android-lib})
-target_link_libraries(x86_core ${log-lib} ${android-lib})
-target_link_libraries(xbox_kernel ${log-lib} ${android-lib})
-target_link_libraries(xbox_memory ${log-lib} ${android-lib})
-target_link_libraries(nv2a_renderer ${log-lib} ${android-lib})
 target_link_libraries(xbox_utils ${log-lib} ${android-lib})
+
+add_library(
+    x86_core
+    SHARED
+    Xbox_og/x86_core.cpp
+)
+target_link_libraries(x86_core xbox_memory xbox_utils ${log-lib} ${android-lib})
+
+add_library(
+    nv2a_renderer
+    SHARED
+    Xbox_og/nv2a_renderer.cpp
+)
+target_link_libraries(nv2a_renderer xbox_memory xbox_utils ${log-lib} ${android-lib})
+
+add_library(
+    xbox_kernel
+    SHARED
+    Xbox_og/xbox_kernel.cpp
+)
+target_link_libraries(xbox_kernel xbox_memory xbox_utils x86_core ${log-lib} ${android-lib})
+
+add_library(
+    xbox_emulator
+    SHARED
+    Xbox_og/xbox_emulator.cpp
+)
+target_link_libraries(xbox_emulator 
+    xbox_memory
+    xbox_utils
+    xbox_kernel
+    x86_core
+    nv2a_renderer
+    ${log-lib}
+    ${android-lib}
+)
+
+set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -latomic")
