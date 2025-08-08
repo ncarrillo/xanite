@@ -66,7 +66,8 @@ you can manually adjust the resolution and performance in settings for experimen
   - 12+ GB recommended
 
 ### Graphics:
-- shaderxbox (private technology)
+- 3.2 opengl 
+- (vulkan coming soon)
 
 ### OS Requirements:
 - Android 10+ (no root)
