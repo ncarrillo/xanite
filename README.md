@@ -5,8 +5,7 @@
 </p>
 
 <h1 align="center"> Xanite -
- Xbox OG/360 emulator 
-2025/8/10  </h1>
+ Xbox OG/360 emulator </h1>
 
 Xanite is a "proof of concept" emulator. 
 
