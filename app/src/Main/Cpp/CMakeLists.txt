@@ -19,8 +19,17 @@ if(ANDROID)
     add_compile_options(-march=armv8-a)
 endif()
 
+  set(CMAKE_ANDROID_STL_TYPE c++_shared)   
+    
 find_library(log-lib log)
 find_library(android-lib android)
+
+find_package(ZLIB REQUIRED)
+
+include_directories(
+    ${CMAKE_ANDROID_NDK}/sources/android/native_app_glue
+    ${CMAKE_ANDROID_NDK}/sysroot/usr/include
+)
 
 add_library(
     xbox_memory
@@ -48,14 +57,46 @@ add_library(
     SHARED
     Xbox_og/nv2a_renderer.cpp
 )
-target_link_libraries(nv2a_renderer xbox_memory xbox_utils ${log-lib} ${android-lib})
+target_link_libraries(nv2a_renderer 
+    xbox_memory 
+    xbox_utils 
+    ${log-lib} 
+    ${android-lib}
+)
 
 add_library(
     xbox_kernel
     SHARED
     Xbox_og/xbox_kernel.cpp
+    Xbox_og/memory_allocator.cpp
 )
-target_link_libraries(xbox_kernel xbox_memory xbox_utils x86_core ${log-lib} ${android-lib})
+target_link_libraries(xbox_kernel 
+    xbox_memory 
+    xbox_utils 
+    x86_core 
+    ${log-lib} 
+    ${android-lib}
+)
+
+add_library(
+    memory_allocator
+    SHARED
+    Xbox_og/memory_allocator.cpp
+)
+target_link_libraries(memory_allocator ${log-lib} ${android-lib})
+
+add_library(
+    xbox_iso_parser
+    SHARED
+    Xbox_og/xbox_iso_parser.cpp
+)
+target_link_libraries(xbox_iso_parser
+    xbox_memory
+    xbox_utils
+    ${log-lib}
+    ${android-lib}
+    ZLIB::ZLIB
+)
 
 add_library(
     xbox_emulator
@@ -68,8 +109,10 @@ target_link_libraries(xbox_emulator
     xbox_kernel
     x86_core
     nv2a_renderer
+    xbox_iso_parser
     ${log-lib}
     ${android-lib}
+    ZLIB::ZLIB
 )
 
 set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -latomic")
