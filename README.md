@@ -14,12 +14,11 @@ This project emulates both the original Xbox and Xbox 360 consoles on Android, s
 ## Game Compatibility
 
 ### Xbox Original
-- Supported formats: iso, xiso, xbe
+- Supported formats: xiso, xbe
 - BIOS required (must be obtained from your own Xbox)
 
 ### Xbox 360
 - Supported formats: iso, xex, god
-- system files required (must be obtained from your own Xbox)
 
 the games you can play depends on your device's performance and storage capacity.
 
