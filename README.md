@@ -86,7 +86,7 @@ you can manually adjust the resolution and performance in settings for experimen
 If you want to contribute as a developer, please contact us in discord
 
 ## Credits
-Developed by @FreePalestine1970,@Yebot32 and 4 other developers on Telegram and discord.  
+Developed by @FreePalestine1970,@Yebot32 and other developers on Telegram and discord.  
 Special thanks to all Xanite supporters.
 
 ## DISCLAIMER !
