@@ -94,14 +94,11 @@ Xanite is an open-source project not affiliated with Microsoft, Xemu, or Xenia. 
 
 We do not condone piracy. BIOS files and game ROMs should be legally owned. While the emulator itself is legal, possessing illegal copies of games or BIOS files is not. Be cautious online.
 
-Performance is not guaranteed in the current early version.
+Performance won't be perfect in the current early version so lower your expectations.
 
-Xanite is not currently available.
 
  
-## xanite socials
-❤️👇
-website 
+## xanite website
 
 https://dev-ali2008.github.io/Xanite.io/#social
 
