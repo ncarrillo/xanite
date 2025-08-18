@@ -8,6 +8,7 @@ object SharedPrefs {
     private const val KEY_BIOS_PATH = "Complex_4627v1.03.bin"
     private const val KEY_BIOS_VERSION = "mcpx_1.0.bin"
     private const val KEY_BIOS_VALID = "xbox_hdd.qcow2"
+    private const val KEY_RENDERER_TYPE = "renderer_type"
 
     fun saveBiosInfo(
         context: Context,
@@ -41,6 +42,17 @@ object SharedPrefs {
 
     private fun getPrefs(context: Context): SharedPreferences {
         return context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+    }
+
+    fun saveRendererType(context: Context, rendererType: String) {
+        getPrefs(context).edit().apply {
+            putString(KEY_RENDERER_TYPE, rendererType)
+            apply()
+        }
+    }
+
+    fun getRendererType(context: Context): String {
+        return getPrefs(context).getString(KEY_RENDERER_TYPE, "vulkan") ?: "vulkan"
     }
 
     data class BiosInfo(
