@@ -3,6 +3,7 @@ package com.xanite.xboxoriginal
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
@@ -16,7 +17,7 @@ class XboxOriginalGamesAdapter(
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GameViewHolder {
         val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.item_xbox_og, parent, false)
+            .inflate(R.layout.item_xbox360_game, parent, false)
         return GameViewHolder(view)
     }
 
@@ -29,16 +30,22 @@ class XboxOriginalGamesAdapter(
         private val gameDetails: TextView = itemView.findViewById(R.id.gameDetails)
 
         fun bind(game: Game) {
+            
             gameName.text = game.name
 
+           
             val typeText = when (game.type) {
-                "ISO" -> "Xbox ISO"
-                "XISO" -> "Xbox XISO"
-                else -> "Xbox Game"
+                "XBOXOG" -> "Xbox Original Game"
+                "ISO" -> "ISO Image"
+                "XBE" -> "XBE Executable"
+                "ZIP" -> "ZIP Archive"
+                "XISO" -> "XISO Image"
+                "CSO" -> "CSO Image"
+                else -> "Unknown Type"
             }
 
             val sizeText = try {
-                formatSize(game.fileSize)
+                formatSize(game.fileSize) 
             } catch (e: Exception) {
                 "Size: N/A"
             }
@@ -57,7 +64,7 @@ class XboxOriginalGamesAdapter(
         }
     }
 
-      class GameDiffCallback : DiffUtil.ItemCallback<Game>() {
+    class GameDiffCallback : DiffUtil.ItemCallback<Game>() {
         override fun areItemsTheSame(oldItem: Game, newItem: Game): Boolean {
             return oldItem.path == newItem.path
         }

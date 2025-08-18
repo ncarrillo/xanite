@@ -13,13 +13,14 @@ import kotlinx.coroutines.withContext
 class XboxOriginalViewModel(application: Application) : AndroidViewModel(application) {
     private val repository = XboxOriginalRepository(application)
     
-    val biosList = MutableLiveData<List<String>>()
     val gamesList = MutableLiveData<List<Game>>()
     val errorMessage = MutableLiveData<String>()
     val successMessage = MutableLiveData<String>()
+    val isLoading = MutableLiveData<Boolean>()
 
     fun loadGames() {
         viewModelScope.launch {
+            isLoading.postValue(true)
             try {
                 val games = withContext(Dispatchers.IO) {
                     repository.getGames()
@@ -27,25 +28,15 @@ class XboxOriginalViewModel(application: Application) : AndroidViewModel(applica
                 gamesList.postValue(games)
             } catch (e: Exception) {
                 errorMessage.postValue("Failed to load games: ${e.message}")
-            }
-        }
-    }
-
-    fun loadBios() {
-        viewModelScope.launch {
-            try {
-                val biosFiles = withContext(Dispatchers.IO) {
-                    repository.getBiosFiles()
-                }
-                biosList.postValue(biosFiles)
-            } catch (e: Exception) {
-                errorMessage.postValue("Failed to load BIOS files: ${e.message}")
+            } finally {
+                isLoading.postValue(false)
             }
         }
     }
 
     fun addGame(uri: Uri) {
         viewModelScope.launch {
+            isLoading.postValue(true)
             try {
                 val result = withContext(Dispatchers.IO) {
                     repository.addGame(uri)
@@ -54,28 +45,12 @@ class XboxOriginalViewModel(application: Application) : AndroidViewModel(applica
                     loadGames()
                     successMessage.postValue("Game added successfully")
                 } else {
-                    errorMessage.postValue("Failed to add game")
+                    errorMessage.postValue("Unsupported format or invalid file")
                 }
             } catch (e: Exception) {
                 errorMessage.postValue("Error: ${e.message}")
-            }
-        }
-    }
-
-    fun copyBiosFromAssets(biosName: String) {
-        viewModelScope.launch {
-            try {
-                val result = withContext(Dispatchers.IO) {
-                    repository.copyBiosFromAssets(biosName)
-                }
-                if (result) {
-                    loadBios()
-                    successMessage.postValue("BIOS copied successfully")
-                } else {
-                    errorMessage.postValue("Failed to copy BIOS")
-                }
-            } catch (e: Exception) {
-                errorMessage.postValue("Error: ${e.message}")
+            } finally {
+                isLoading.postValue(false)
             }
         }
     }
