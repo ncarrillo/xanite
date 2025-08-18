@@ -30,13 +30,15 @@ class Xbox360GamesAdapter(
         private val gameDetails: TextView = itemView.findViewById(R.id.gameDetails)
 
         fun bind(game: Game) {
-            gameName.text = game.name
             
-            val typeText = when (game.type) {
+            gameName.text = game.name
+
+         val typeText = when (game.type) {
                 "XBOX360" -> "Xbox 360 Game"
                 "ISO" -> "ISO Image"
                 "XEX" -> "XEX Executable"
                 "ZIP" -> "ZIP Archive"
+                "GOD" -> "GOD Image"
                 else -> "Unknown Type"
             }
 

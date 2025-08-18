@@ -97,14 +97,14 @@ class Xbox360Activity : AppCompatActivity() {
             .setNegativeButton("Cancel", null)
             .show()
     }
-    
+
     private fun deleteGame(game: Game) {
         val file = File(game.path)
         if (file.exists()) {
             val deleted = file.delete()
             if (deleted) {
                 showToast("Game deleted")
-                viewModel.loadGames() // تحديث 
+                viewModel.loadGames() 
             } else {
                 showToast("Failed to delete game")
             }
